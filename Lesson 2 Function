@@ -10,3 +10,6 @@ let result: Int = add(outerX:3, y: 5)
 
 print(result)
 
+
+//func add(outerX innerX: Int, y: Int) -> Int {
+//function 
