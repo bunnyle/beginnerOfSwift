@@ -1,0 +1,12 @@
+func add(outerX innerX: Int, y: Int) -> Int {
+
+     let resule: Int = innerX + y
+     
+     return result
+     
+}
+
+let result: Int = add(outerX:3, y: 5)
+
+print(result)
+
