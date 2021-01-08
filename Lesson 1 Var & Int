@@ -1,0 +1,20 @@
+var number: Int = 5
+//var是變數
+//number是變數的名稱
+//後邊跟冒號是可以指定這個變數的形別
+//Int是數字，Double是帶小數
+
+number = 10
+//由於var是變數，因此可以重新定義這個值為其他數字
+
+var message = "Hello"
+//你會看到這裡沒有加冒號定義形別，因為Swift非常聰明地知道等號兩邊的值是文字，因此即使沒有指定，Swift都能識別
+
+message.append(", World!")
+//當然我們亦可以添加其他文字在這個變數中，只需要使用.append即可在Hello後添加你想要的文字
+
+let number: Int = 5
+//let是常數，當定義後就不能更改
+
+print(message)
+//我們可以透過print來輸出或顯示這個值
